@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		960508F81E690FE3000A594C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960508F71E690FE3000A594C /* AppDelegate.swift */; };
-		960508FA1E690FE3000A594C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960508F91E690FE3000A594C /* ViewController.swift */; };
 		960508FD1E690FE3000A594C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960508FB1E690FE3000A594C /* Main.storyboard */; };
 		960508FF1E690FE4000A594C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960508FE1E690FE4000A594C /* Assets.xcassets */; };
 		960509021E690FE4000A594C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960509001E690FE4000A594C /* LaunchScreen.storyboard */; };
 		9605090D1E690FE4000A594C /* AutomockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605090C1E690FE4000A594C /* AutomockTests.swift */; };
+		960509181E6917D3000A594C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960509171E6917D3000A594C /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		960508F41E690FE3000A594C /* Automock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960508F71E690FE3000A594C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		960508F91E690FE3000A594C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		960508FC1E690FE3000A594C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		960508FE1E690FE4000A594C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960509011E690FE4000A594C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,8 @@
 		960509081E690FE4000A594C /* AutomockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9605090C1E690FE4000A594C /* AutomockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomockTests.swift; sourceTree = "<group>"; };
 		9605090E1E690FE4000A594C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960509171E6917D3000A594C /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		96F580601E69C32000DCD35B /* Sourcery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sourcery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +79,12 @@
 			isa = PBXGroup;
 			children = (
 				960508F71E690FE3000A594C /* AppDelegate.swift */,
-				960508F91E690FE3000A594C /* ViewController.swift */,
 				960508FB1E690FE3000A594C /* Main.storyboard */,
 				960508FE1E690FE4000A594C /* Assets.xcassets */,
 				960509001E690FE4000A594C /* LaunchScreen.storyboard */,
 				960509031E690FE4000A594C /* Info.plist */,
+				960509171E6917D3000A594C /* MainTableViewController.swift */,
+				96F580601E69C32000DCD35B /* Sourcery.swift */,
 			);
 			path = Automock;
 			sourceTree = "<group>";
@@ -201,7 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				960508FA1E690FE3000A594C /* ViewController.swift in Sources */,
+				960509181E6917D3000A594C /* MainTableViewController.swift in Sources */,
 				960508F81E690FE3000A594C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +412,7 @@
 				960509131E690FE4000A594C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960509141E690FE4000A594C /* Build configuration list for PBXNativeTarget "AutomockTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +421,7 @@
 				960509161E690FE4000A594C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
