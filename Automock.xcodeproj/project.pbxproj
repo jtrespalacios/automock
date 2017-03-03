@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7997D41E69DA3800CA0225 /* AutoEquality.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7997D11E69DA3800CA0225 /* AutoEquality.generated.swift */; };
+		3A7997D51E69DA3800CA0225 /* AutoHashable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7997D21E69DA3800CA0225 /* AutoHashable.generated.swift */; };
+		3A7997D61E69DA3800CA0225 /* AutoMock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7997D31E69DA3800CA0225 /* AutoMock.generated.swift */; };
+		3A7997D81E69DAE700CA0225 /* AutoHashable in Resources */ = {isa = PBXBuildFile; fileRef = 3A7997D71E69DAE700CA0225 /* AutoHashable */; };
 		960508F81E690FE3000A594C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960508F71E690FE3000A594C /* AppDelegate.swift */; };
 		960508FD1E690FE3000A594C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960508FB1E690FE3000A594C /* Main.storyboard */; };
 		960508FF1E690FE4000A594C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960508FE1E690FE4000A594C /* Assets.xcassets */; };
@@ -29,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A7997D11E69DA3800CA0225 /* AutoEquality.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoEquality.generated.swift; sourceTree = "<group>"; };
+		3A7997D21E69DA3800CA0225 /* AutoHashable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoHashable.generated.swift; sourceTree = "<group>"; };
+		3A7997D31E69DA3800CA0225 /* AutoMock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoMock.generated.swift; sourceTree = "<group>"; };
+		3A7997D71E69DAE700CA0225 /* AutoHashable */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AutoHashable; path = Templates/AutoHashable; sourceTree = "<group>"; };
 		960508F41E690FE3000A594C /* Automock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960508F71E690FE3000A594C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960508FC1E690FE3000A594C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,6 +72,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A7997D01E69DA3800CA0225 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				3A7997D11E69DA3800CA0225 /* AutoEquality.generated.swift */,
+				3A7997D21E69DA3800CA0225 /* AutoHashable.generated.swift */,
+				3A7997D31E69DA3800CA0225 /* AutoMock.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		960508EB1E690FE3000A594C = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +105,7 @@
 		960508F61E690FE3000A594C /* Automock */ = {
 			isa = PBXGroup;
 			children = (
+				3A7997D01E69DA3800CA0225 /* Generated */,
 				960508F71E690FE3000A594C /* AppDelegate.swift */,
 				960508FB1E690FE3000A594C /* Main.storyboard */,
 				960508FE1E690FE4000A594C /* Assets.xcassets */,
@@ -113,6 +132,7 @@
 				96F580681E69CCD300DCD35B /* AutoEquality.stencil */,
 				96F580661E69CCB900DCD35B /* AutoHashable.stencil */,
 				96F580691E69CCD300DCD35B /* AutoMock.stencil */,
+				3A7997D71E69DAE700CA0225 /* AutoHashable */,
 			);
 			name = Templates;
 			sourceTree = "<group>";
@@ -208,6 +228,7 @@
 				96F5806B1E69CCD300DCD35B /* AutoMock.stencil in Resources */,
 				960508FD1E690FE3000A594C /* Main.storyboard in Resources */,
 				96F5806A1E69CCD300DCD35B /* AutoEquality.stencil in Resources */,
+				3A7997D81E69DAE700CA0225 /* AutoHashable in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				960509181E6917D3000A594C /* MainTableViewController.swift in Sources */,
+				3A7997D51E69DA3800CA0225 /* AutoHashable.generated.swift in Sources */,
 				960508F81E690FE3000A594C /* AppDelegate.swift in Sources */,
+				3A7997D61E69DA3800CA0225 /* AutoMock.generated.swift in Sources */,
+				3A7997D41E69DA3800CA0225 /* AutoEquality.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

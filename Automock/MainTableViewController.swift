@@ -80,11 +80,6 @@ struct Contact {
     let address: String
 }
 
-extension Contact: Equatable {}
-func ==(lhs: Contact, rhs: Contact) -> Bool {
-    return lhs.name == rhs.name && lhs.phoneNumber == rhs.phoneNumber && lhs.address == rhs.address
-}
-
 protocol DirectoryDelegate: class {
     func added(contact: Contact, fromDirectory directory: Directory)
     func removed(contact: Contact, fromDirectory directory: Directory)
