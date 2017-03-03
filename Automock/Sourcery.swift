@@ -8,6 +8,8 @@
 
 import Foundation
 
-protocol Automock {}
+protocol AutoMockable {}
+protocol AutoEquatable {}
 
-extension DirectoryDelegate: Automock {}
+
+//extension DirectoryDelegate: Automock {}

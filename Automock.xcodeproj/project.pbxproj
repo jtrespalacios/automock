@@ -13,6 +13,9 @@
 		960509021E690FE4000A594C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960509001E690FE4000A594C /* LaunchScreen.storyboard */; };
 		9605090D1E690FE4000A594C /* AutomockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605090C1E690FE4000A594C /* AutomockTests.swift */; };
 		960509181E6917D3000A594C /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960509171E6917D3000A594C /* MainTableViewController.swift */; };
+		96F580671E69CCB900DCD35B /* AutoHashable.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 96F580661E69CCB900DCD35B /* AutoHashable.stencil */; };
+		96F5806A1E69CCD300DCD35B /* AutoEquality.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 96F580681E69CCD300DCD35B /* AutoEquality.stencil */; };
+		96F5806B1E69CCD300DCD35B /* AutoMock.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 96F580691E69CCD300DCD35B /* AutoMock.stencil */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 		9605090E1E690FE4000A594C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		960509171E6917D3000A594C /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		96F580601E69C32000DCD35B /* Sourcery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sourcery.swift; sourceTree = "<group>"; };
+		96F580661E69CCB900DCD35B /* AutoHashable.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AutoHashable.stencil; path = Templates/AutoHashable.stencil; sourceTree = "<group>"; };
+		96F580681E69CCD300DCD35B /* AutoEquality.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AutoEquality.stencil; path = Templates/AutoEquality.stencil; sourceTree = "<group>"; };
+		96F580691E69CCD300DCD35B /* AutoMock.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = AutoMock.stencil; path = Templates/AutoMock.stencil; sourceTree = "<group>"; };
+		96F5806C1E69CD0400DCD35B /* monitor.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = monitor.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 		960508EB1E690FE3000A594C = {
 			isa = PBXGroup;
 			children = (
+				96F5806C1E69CD0400DCD35B /* monitor.sh */,
+				96F580611E69CB7500DCD35B /* Templates */,
 				960508F61E690FE3000A594C /* Automock */,
 				9605090B1E690FE4000A594C /* AutomockTests */,
 				960508F51E690FE3000A594C /* Products */,
@@ -96,6 +105,16 @@
 				9605090E1E690FE4000A594C /* Info.plist */,
 			);
 			path = AutomockTests;
+			sourceTree = "<group>";
+		};
+		96F580611E69CB7500DCD35B /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				96F580681E69CCD300DCD35B /* AutoEquality.stencil */,
+				96F580661E69CCB900DCD35B /* AutoHashable.stencil */,
+				96F580691E69CCD300DCD35B /* AutoMock.stencil */,
+			);
+			name = Templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +203,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				960509021E690FE4000A594C /* LaunchScreen.storyboard in Resources */,
+				96F580671E69CCB900DCD35B /* AutoHashable.stencil in Resources */,
 				960508FF1E690FE4000A594C /* Assets.xcassets in Resources */,
+				96F5806B1E69CCD300DCD35B /* AutoMock.stencil in Resources */,
 				960508FD1E690FE3000A594C /* Main.storyboard in Resources */,
+				96F5806A1E69CCD300DCD35B /* AutoEquality.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
